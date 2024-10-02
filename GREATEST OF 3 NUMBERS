@@ -1,0 +1,25 @@
+HI , THIS IS AKSHAY FROM CSD-A (23P61A6737)
+
+
+THIS IS THE SOLUTION OF A GREATEST OF THREE NUMBERS.
+
+SOURCE CODE:
+     # Taking three inputs from the user
+     a = float(input("Enter the first number: "))
+     b = float(input("Enter the second number: "))
+     c = float(input("Enter the third number: "))
+
+     # Using a conditional expression to find the largest number
+     max_val = a if (a >= b and a >= c) else (b if b >= c else c)
+
+     # Printing the result
+     print("The largest number is:", max_val)
+
+EXPLANATION:
+   1.The largest number is determined using a conditional expression (ternary operator).
+   2.If a is greater than or equal to both b and c, it is assigned to max_val.
+   3.Otherwise, it checks if b is greater than or equal to c, and assigns either b or c as the largest.
+   4.AND FINALLY THE LARGEST NUMBER IN GIVEN INPUTS WILL BE PRINTED.
+ALTERNATIVE:
+   1.WE CAN GO WITH THE BUILT IN FUNCTION max() TO RETRIVE THE LARGEST INTEGER.
+   2.WE CAN SORT THE GIVEN NUMBERS IN A LIST AND TAKE THE LARGEST VALUE  (WHICH WILL BE THE LAST INDEX AFTER SORTING).
