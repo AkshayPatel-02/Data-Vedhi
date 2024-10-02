@@ -1,0 +1,30 @@
+HII THIS IS AKSHAY FROM CSD-A 23P61A6737.
+
+HERE IS THE PROGRAME FOR LIST OPERATIONS.
+
+SOURCE CODE:
+      # Creating a list
+      lst = []  
+      print("Initial list:", lst)
+
+      # Appending elements to the list
+      lst.append(10)
+      lst.append(20)
+      lst.append(30)
+      print("List after appending elements:", lst)
+
+      # Appending a list of elements
+      lst.extend([40, 50, 60])
+      print("List after extending with multiple elements:", lst)
+
+      # Removing an element from the list by value
+      lst.remove(20)
+      print("List after removing an element (20):", lst)
+
+EXPLANATION:
+      1.AT FIRST I CREATED A EMPTY LIST CALLED "lst".
+      2.AND THEN I APPENDED THE ELEMENTS USING ("append()") FUNCTION.
+      3.AND THEN I APPENDED THE MULTIPLE ELEMENTS BY PASSING A LIST IN AN extend() FUNCTION.
+      4.AND I REMOVED AN ELEMENT "20" FROM A LIST USING remove() FUNCTION.  
+
+
